@@ -1,15 +1,12 @@
 body{
   margin: 0;
 }
-
-.header{
-  height: 100px;
-  width: 100%;
-  background-color:red;
-  position: fixed;
+#top-header{
+  background-color:blue ;
 }
 
 .header-wrap{
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,4 +29,18 @@ body{
 .header-nav a{
   color: black;
   text-decoration: none;
+}
+
+#firstview {
+  height: 100%;
+  background: url(./img/mv.png) no-repeat;
+  background-size:cover;
+  background-position: center;
+  position: relative;
+}
+
+.catchcopy {
+  position: absolute;
+  color: white;
+  line-height: 1;
 }
