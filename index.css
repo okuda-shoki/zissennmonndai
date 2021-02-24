@@ -145,8 +145,7 @@ img{
 .service-text{
   width: 500px;
   height: 10px;
-  line-height: 1;
-  vertical-align: 0;
+  margin-top: 0%;
 }
 
 
@@ -258,7 +257,7 @@ img{
   transition-duration:0.3s ;
 }
 
-.company-title h3{
+.company-title{
   text-align: center;
   margin-top: 80px;
   font-size: 30px;
@@ -268,26 +267,25 @@ img{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-}
-
-.company-img{
+  
 }
 
 .company-img {
-  background-size: cover;
-  width: 350px;
   margin: auto 10px;
 }
 
 .company-img img{
   background-size: cover;
   width: 350px;
+
 }
 
-.company-img span{
+.company-img a{
   font-weight: bold;
   font-size: 18px;
+  text-decoration: none;
+  color: black;
+  
 }
 
 .company-img p{
@@ -296,6 +294,143 @@ img{
 
 .company-img p,
 .company-img span{
-  width: 350px;
-  height: auto;
+  margin-top: 0%;
+}
+
+.company-btn{
+  background-color: rgb(206, 28, 28);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.company-btn:hover,
+.company-img img:hover,
+.company-img a:hover{
+  opacity: 0.5;
+  transform: 0.2s;
+}
+
+.recruit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.company-back,
+.recruit-back{
+  width: 50%;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+ text-align: center;
+ padding: 100px 0;
+}
+
+.company-back{
+  background-color: rgb(206, 28, 28);
+}
+
+.recruit-back{
+  background-color: rgba(0, 0, 0, 0.877)
+}
+
+.company-back:hover,
+.recruit-back:hover{
+  opacity: 0.5;
+  transform: 0.2s;
+}
+
+.contact{
+  background-color:rgb(241, 243, 243);
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+
+.contact-title,
+.contact-text {
+  text-align: center;
+}
+
+.contact-title{
+  padding-top:90px ;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contact-btn{
+  background-color: rgb(206, 28, 28);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.contact-btn:hover{
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+.footer-bar{
+  height: 60px;
+  line-height: 60px;
+}
+
+.top-footer{
+  background-color: rgba(0, 0, 0, 0.877);
+}
+
+.flex{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text{
+  color: white;
+  padding-left: 130px;
+}
+
+#sample{
+  padding-right: 150px;
+}
+
+#sample li{
+  margin-right: 35px;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline;
+  list-style-type:none ;
+  margin-right: 6px;
+  padding-left: 10px;
+  border-left:1px solid white;
+}
+
+#sample li.border{
+  border-left: 0;
+  padding-left: 0;
+}
+
+.footer-nav a{
+  color: white;
+  text-decoration: none;
+}
+
+#sample li:hover{
+  opacity: 0.6;
+  transition-duration: 0.3s;
 }
