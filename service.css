@@ -53,7 +53,7 @@ body{
   }
 
 #eyecatch{
-  height:320px;
+  height:370px;
   background: url(./img/mv.png)no-repeat;
   background-size: cover;
   background-position: center;
@@ -83,11 +83,11 @@ body{
 #about{
   width: 1080px;
   margin: 0 auto;
-  margin: 50px auto;
+  margin: 80px auto;
 }
 
 .about-wrap{
-    padding: 20px 0;
+    padding: 30px 0;
     border-top: 1px solid #222;
     display: flex;
     flex-wrap: wrap;
@@ -95,19 +95,107 @@ body{
 }
 
 .about-right {
-  display: inline-block;
-  vertical-align: top;
+  width: 750px;
+  line-height: 1px;
 }
 
 .about-right h2{
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .about-right p{
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 .about-left img{
   width: 300px;
+  line-height: 1px;
+}
+
+.contact{
+  background-color:rgb(241, 243, 243);
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+
+.contact-title,
+.contact-text {
+  text-align: center;
+}
+
+.contact-title{
+  padding-top:90px ;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contact-btn{
+  background-color: rgb(206, 28, 28);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
   display: block;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.contact-btn:hover{
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+.footer-bar{
+  height: 60px;
+  line-height: 60px;
+}
+
+.top-footer{
+  background-color: rgba(0, 0, 0, 0.877);
+}
+
+.flex{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text{
+  color: white;
+  padding-left: 130px;
+}
+
+#sample{
+  padding-right: 150px;
+}
+
+#sample li{
+  margin-right: 35px;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline;
+  list-style-type:none ;
+  margin-right: 6px;
+  padding-left: 10px;
+  border-left:1px solid white;
+}
+
+#sample li.border{
+  border-left: 0;
+  padding-left: 0;
+}
+
+.footer-nav a{
+  color: white;
+  text-decoration: none;
+}
+
+#sample li:hover{
+  opacity: 0.6;
+  transition-duration: 0.3s;
 }
