@@ -115,15 +115,20 @@ body{
   margin-top: 100px;
 }
 
+.service{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
 .service-wrap{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 100%;
 }
 
 img{
-  width: 500px;
+  width: 550px;
 }
 .service-text{
   font-size: 15px;
@@ -398,6 +403,8 @@ img{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 1400px;
+  margin: 0 auto;
 }
 
 .footer-text{
@@ -487,20 +494,28 @@ html{
 }
 
 .mission{
-  height: 300px;
+ height: 350px;
 }
 
 .mission-content{
   width: 85%;
 }
 
+
 .mission-text{
   font-size: 1.6rem;
+}
+
+
+.service{
+  width: 100%;
 }
 
 .service-title{
   font-size: 3rem;
 }
+
+
 
 .service-wrap{
   text-align: center;
@@ -617,6 +632,7 @@ html{
 .flex{
   margin: 0 auto;
   height: 250px;
+  width: 85%;
 }
 
 .footer-nav ul{

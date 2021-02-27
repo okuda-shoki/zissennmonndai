@@ -79,13 +79,17 @@ body{
   font-weight: bold;
 }
 
+#company{
+   width: 1200px;
+   margin: 0 auto;
+}
+
 .company-wrap{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  margin: 80px auto;
-  
+  margin: 80px 0;
 }
 
 .company-img {
@@ -247,9 +251,10 @@ html{
   height: 330px;
 }
 
-.company-wrap{
+#company{
   width: 85%;
 }
+
 
 .company-img img{
   width: 100%;
