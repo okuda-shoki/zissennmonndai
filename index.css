@@ -124,12 +124,19 @@ body{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 1080px;
+  width: 100%;
+}
+.service-img{
+  display:flexbox;
+  width: 40%;
 }
 
 .service-img{
-  display: flex;
-  flex-wrap: wrap;
+  display: flexbox;
+  width: 40%;
+}
+
+.service-img img{
   width: 100%;
 }
 
@@ -507,8 +514,13 @@ html{
 }
 
 
-.service{
+
+
+.service-wrap{
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .service-title{
@@ -516,24 +528,10 @@ html{
 }
 
 
-
-.service-wrap{
-  text-align: center;
-}
-
-.service-img1 img,
-.service-img2 img,
-.service-img3 img,
-.service-img4 img{
+.service-img {
   width: 85%;
 }
 
-.service-content,
-.service-text{
-  width: 85%;
-  text-align: left; 
-  margin: 0 auto;
-}
 
 .service-text{
   padding: 10px 0px;
@@ -592,7 +590,7 @@ html{
 }
 
 .company-img img{
-  width: 650px;
+  width: 100%;
 }
 
 .company-img p{
