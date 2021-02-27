@@ -81,7 +81,7 @@ body{
 
 
 #about{
-  width: 1080px;
+  width: 100%;
   margin: 0 auto;
   margin: 80px auto;
 }
@@ -92,11 +92,12 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
 }
 
 .about-right {
-  width: 750px;
-  line-height: 1px;
+  width: 70%;
 }
 
 .about-right h2{
