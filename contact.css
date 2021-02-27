@@ -125,7 +125,6 @@ textarea{
 .button-submit{
   text-align: center;
   padding: 10px,500px;
-  font-weight: bold;
 }
 
 .button{
@@ -133,6 +132,7 @@ textarea{
   background-color: black;
   color: white;
   margin: 30px 0;
+  font-weight: bold;
 }
 
 .footer-bar{

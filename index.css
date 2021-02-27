@@ -116,7 +116,6 @@ body{
 }
 
 .service{
-  width: 1200px;
   margin: 0 auto;
 }
 
@@ -125,19 +124,20 @@ body{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  width: 1080px;
 }
 
-img{
-  width: 550px;
+.service-img{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
+
 .service-text{
   font-size: 15px;
 }
 
-.service-img1,
-.service-img2,
-.service-img3,
-.service-img4{
+.service-img{
   margin: 10px;
 }
 
