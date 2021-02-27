@@ -239,7 +239,7 @@ body{
   .news-text0{
     display: flexbox;
     width: 85%;
-    height: 50px
+    height: 60px
   }
 
 
@@ -415,6 +415,7 @@ body{
   margin-right: 6px;
   padding-left: 10px;
   border-left:1px solid white;
+  height: 20px;
 }
 
 #sample li.border{
