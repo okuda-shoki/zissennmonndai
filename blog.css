@@ -104,7 +104,10 @@ body{
   margin: 0 5px;
 }
 
-
+.company-wrap0{
+  display: flex;
+  justify-content: center;
+}
 
 .company-img img{
   width: 100%;
