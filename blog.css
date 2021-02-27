@@ -285,6 +285,11 @@ html{
   font-size: 1.7rem;
 }
 
+.company-wrap0{
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 .contact-btn{
   height: 30px;
   width: 280px;
